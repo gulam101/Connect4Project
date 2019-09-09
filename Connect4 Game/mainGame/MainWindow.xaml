@@ -6,7 +6,35 @@
         xmlns:local="clr-namespace:mainGame"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFD0FF00">
+        <Grid HorizontalAlignment="Left" Height="100" Margin="100,188,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="78" Height="33">
+            <Button.Background>
+                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Red counter.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="28.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="34.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="4"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="25.4,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="5"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
