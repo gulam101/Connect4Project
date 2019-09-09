@@ -24,6 +24,7 @@ namespace mainGame
         public MainWindow()
         {
             InitializeComponent();
+            this.boardColumns = new Rectangle[7];
         }
     }
 }
