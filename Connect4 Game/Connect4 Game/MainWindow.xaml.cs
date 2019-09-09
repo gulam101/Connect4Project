@@ -27,13 +27,17 @@ namespace Connect4_Game
 
         private void Exit_btn_Click(object sender, RoutedEventArgs e)
         {
-           var msgbox = MessageBox.Show("Are you sure you want to exit?",
-               "Are you sure?" ,MessageBoxButton.YesNoCancel, MessageBoxImage.Error);
+            MessageBoxResult result = MessageBox.Show("Are you sure you want to exit?",
+               "Are you sure?", MessageBoxButton.YesNoCancel, MessageBoxImage.Error);
 
-            if(msgbox == MessageBoxResult.Yes)
+            if(result == MessageBoxResult.Yes)
             {
-                Application.exit
+                System.Windows.Application.Current.Shutdown(); //Shuts down the application
             }
+        }
+
+        private void Play_btn_Click(object sender, RoutedEventArgs e)
+        {
         }
     }
 }
