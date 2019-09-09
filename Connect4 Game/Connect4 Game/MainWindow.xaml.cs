@@ -31,7 +31,7 @@ namespace Connect4_Game
         {
             MessageBoxResult result = MessageBox.Show("Are you sure you want to exit?",
                "Are you sure?", MessageBoxButton.YesNoCancel, MessageBoxImage.Error);
-
+            
             if(result == MessageBoxResult.Yes)
             {
                 System.Windows.Application.Current.Shutdown(); //Shuts down the application
