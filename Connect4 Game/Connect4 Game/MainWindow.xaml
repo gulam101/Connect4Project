@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label x:Name="Connect_4_Game1" Content="𝓒𝓸𝓷𝓷𝓮𝓬𝓽 𝓕𝓸𝓾𝓻" HorizontalAlignment="Left" Margin="335,10,0,0" VerticalAlignment="Top" Height="34" FontSize="16"/>
+        <Button x:Name="play_btn" Content="Play Game" HorizontalAlignment="Left" Margin="359,83,0,0" VerticalAlignment="Top" Width="75"/>
+        <Grid>
+            <Label x:Name="Connect_4_Game2" Content="𝓒𝓸𝓷𝓷𝓮𝓬𝓽 𝓕𝓸𝓾𝓻" HorizontalAlignment="Left" Margin="335,10,0,0" VerticalAlignment="Top" Height="34" FontSize="16"/>
+            <Button x:Name="exit_btn" Content="Exit&#xD;&#xA;" HorizontalAlignment="Left" Margin="357,135,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.467,0.531" Height="20" Click="Exit_btn_Click"/>
+
+        </Grid>
+
     </Grid>
 </Window>

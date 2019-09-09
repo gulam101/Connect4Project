@@ -24,5 +24,16 @@ namespace Connect4_Game
         {
             InitializeComponent();
         }
+
+        private void Exit_btn_Click(object sender, RoutedEventArgs e)
+        {
+           var msgbox = MessageBox.Show("Are you sure you want to exit?",
+               "Are you sure?" ,MessageBoxButton.YesNoCancel, MessageBoxImage.Error);
+
+            if(msgbox == MessageBoxResult.Yes)
+            {
+                Application.exit
+            }
+        }
     }
 }
