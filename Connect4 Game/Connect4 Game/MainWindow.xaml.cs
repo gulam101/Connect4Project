@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using mainGame;
+
 
 namespace Connect4_Game
 {
@@ -38,6 +40,9 @@ namespace Connect4_Game
 
         private void Play_btn_Click(object sender, RoutedEventArgs e)
         {
+            mainGame.MainWindow newForm = new mainGame.MainWindow();
+            newForm.Show();
+            this.Hide();
         }
     }
 }

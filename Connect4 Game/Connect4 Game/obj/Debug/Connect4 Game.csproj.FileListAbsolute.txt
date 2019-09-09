@@ -13,3 +13,7 @@ C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Gam
 C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.csproj.CoreCompileInputs.cache
 C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.exe
 C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.pdb
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\mainGame.exe
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\mainGame.pdb
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\mainGame.exe.config
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.csproj.CopyComplete

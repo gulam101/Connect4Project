@@ -1,0 +1,15 @@
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\MainWindow.g.cs
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\App.g.cs
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame_MarkupCompile.cache
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame_MarkupCompile.lref
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Debug\mainGame.exe.config
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Debug\mainGame.exe
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Debug\mainGame.pdb
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\MainWindow.baml
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.g.resources
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.Properties.Resources.resources
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.csproj.GenerateResource.cache
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.csproj.CoreCompileInputs.cache
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.exe
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.pdb
+C:\Users\Public\Visual Studio Projects\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.csprojAssemblyReference.cache
