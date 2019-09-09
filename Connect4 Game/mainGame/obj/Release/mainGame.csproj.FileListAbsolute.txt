@@ -1,0 +1,15 @@
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Release\mainGame.exe.config
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Release\mainGame.exe
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\bin\Release\mainGame.pdb
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.csprojAssemblyReference.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\MainWindow.g.cs
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\App.g.cs
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame_MarkupCompile.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame_MarkupCompile.lref
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\MainWindow.baml
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.g.resources
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.Properties.Resources.resources
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.csproj.GenerateResource.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.csproj.CoreCompileInputs.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.exe
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Release\mainGame.pdb

@@ -8,33 +8,48 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FFD0FF00">
         <Grid HorizontalAlignment="Left" Height="100" Margin="100,188,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="78" Height="33">
+        <Button Content="" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="78" Height="33" Click="Button_Click_1">
             <Button.Background>
                 <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Red counter.jpg"/>
             </Button.Background>
         </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="2"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="28.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="3"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="34.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="4"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="410" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="1"/>
         <Button Content="Button" HorizontalAlignment="Left" Margin="25.4,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="5"/>
 
         <Grid.ColumnDefinitions>
+            <!--going down-->
             <ColumnDefinition/>
+            <!--Index 0-->
             <ColumnDefinition/>
+            <!--Index 1-->
             <ColumnDefinition/>
+            <!--Index 2-->
             <ColumnDefinition/>
+            <!--Index 3-->
             <ColumnDefinition/>
+            <!--Index 4-->
             <ColumnDefinition/>
+            <!--Index 5-->
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
+            <!--goes across-->
             <RowDefinition/>
+            <!--Index 0-->
             <RowDefinition/>
+            <!--Index 1-->
             <RowDefinition/>
+            <!--Index 2-->
             <RowDefinition/>
+            <!--Index 3-->
             <RowDefinition/>
+            <!--Index 4-->
             <RowDefinition/>
+            <!--Index 5-->
         </Grid.RowDefinitions>
     </Grid>
 </Window>
