@@ -7,7 +7,6 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
-//using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -29,7 +28,6 @@ namespace mainGame
         }
 
         //When false is playerone, when true playertwo
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button; //It takes the sender objected and parsed it into sender object which casts it into a sender object
@@ -47,13 +45,16 @@ namespace mainGame
                 playerTurn = false;
             }
             button.Click -= Button_Click; //Removes the event so that it doesn't call this method again
+            {
+                //Checks the row
+                int y;
+            }
         }
 
         bool playerTurn = false;
-        bool counter = true;
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
-       {
+        {
            
         }
     }

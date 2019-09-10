@@ -42,7 +42,7 @@ namespace Connect4_Game
         {
             mainGame.MainWindow newForm = new mainGame.MainWindow();
             newForm.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }
