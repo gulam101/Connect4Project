@@ -17,3 +17,10 @@ Fix the placeholder images
 Game over screen
 Adjust the menu
 Will add a test menu to test some things on a different menu to keep the main area clean
+
+Day 2 Implementations
+Fixed the GRID and enlarged it
+The counters work properly
+fixed the menu not loading up the game
+Adjusted the menu and added a few images
+Removed the placeholder images
