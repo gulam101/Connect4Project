@@ -41,9 +41,8 @@ namespace Connect4_Game
         private void Play_btn_Click(object sender, RoutedEventArgs e)
         {
             mainGame.MainWindow newForm = new mainGame.MainWindow();
-            //newForm.Show();
-            //this.Hide();
-            this.Content = newForm;
+            newForm.Show();
+            this.Hide();
         }
     }
 }

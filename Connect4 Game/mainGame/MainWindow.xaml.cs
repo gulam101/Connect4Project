@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -32,20 +32,21 @@ namespace mainGame
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            Button button = sender as Button; //It takes the sender objected and parsed it into sender object which casts it into a sender object
             //Player turn
             if (!playerTurn)  //Yellow
             {
                 //Player one
+                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0)); //Changes to red when pressed
                 playerTurn = true;
-                Counter.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0)); //Changes to red when pressed
             }
             else //Red
             {
                 //Player two
+                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
                 playerTurn = false;
-                Counter.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
             }
-            
+            button.Click -= Button_Click; //Removes the event so that it doesn't call this method again
         }
 
         bool playerTurn = false;

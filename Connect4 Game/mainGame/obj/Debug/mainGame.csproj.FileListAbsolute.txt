@@ -27,3 +27,4 @@ C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.csproj.CoreCompileInputs.cache
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.exe
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.pdb
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\mainGame\obj\Debug\mainGame.csprojAssemblyReference.cache
