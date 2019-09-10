@@ -7,20 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#FFD0FF00">
-        <Grid HorizontalAlignment="Left" Height="100" Margin="100,188,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="" HorizontalAlignment="Left" Margin="25,27,0,0" VerticalAlignment="Top" Width="78" Height="33" Click="Button_Click_1">
-            <Button.Background>
-                <ImageBrush ImageSource="pack://siteoforigin:,,,/Resources/Red counter.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="2"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="28.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="3"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="34.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="4"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="410" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="25.4,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="5"/>
 
         <Grid.ColumnDefinitions>
+            <!--Index 5-->
             <!--going down-->
             <ColumnDefinition/>
             <!--Index 0-->
@@ -33,10 +22,10 @@
             <ColumnDefinition/>
             <!--Index 4-->
             <ColumnDefinition/>
-            <!--Index 5-->
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
+            <!--Index 5-->
             <!--goes across-->
             <RowDefinition/>
             <!--Index 0-->
@@ -49,7 +38,78 @@
             <RowDefinition/>
             <!--Index 4-->
             <RowDefinition/>
-            <!--Index 5-->
         </Grid.RowDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="30,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="39,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="28.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="3"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="34.2,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="4"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="410" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="25.4,27,0,0" VerticalAlignment="Top" Width="75" Grid.Column="5"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="410" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="2"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="420" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="3" Grid.ColumnSpan="2" Margin="131.2,-9,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="420" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="4" Grid.ColumnSpan="2" Margin="132.2,-10,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="420" Grid.RowSpan="6" Stroke="Black" VerticalAlignment="Top" Width="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="132,0,0,0"/>
+        <Button x:Name="Counter" Content="" HorizontalAlignment="Left" Margin="27,27,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Background="Yellow"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-26,0,-11.4,0" Grid.Row="2" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-28,0,-9.4,0" Grid.Row="3" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-28,68,-9.4,0" Grid.Row="3" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-30,68,-7.4,0" Grid.Row="4" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-38,68,0,0" Grid.Row="1" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="6" HorizontalAlignment="Left" Height="0" Margin="-44,68,0,0" VerticalAlignment="Top" Width="831" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+        </Border>
+
     </Grid>
 </Window>

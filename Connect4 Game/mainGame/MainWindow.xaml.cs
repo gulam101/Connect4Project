@@ -30,24 +30,30 @@ namespace mainGame
 
         //When false is playerone, when true playertwo
 
-        bool playerTurn = false;
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             //Player turn
-
-            if(!playerTurn)
+            if (!playerTurn)  //Yellow
             {
                 //Player one
-                
-            } else
+                playerTurn = true;
+                Counter.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0)); //Changes to red when pressed
+            }
+            else //Red
             {
                 //Player two
+                playerTurn = false;
+                Counter.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
             }
+            
         }
 
-      private void Button_Click_1(object sender, RoutedEventArgs e)
+        bool playerTurn = false;
+        bool counter = true;
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
        {
-       }
+           
+        }
     }
 }
