@@ -12,9 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Drawing;
 
-namespace mainGame
+namespace newGrid
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,11 +22,13 @@ namespace mainGame
     {
         public MainWindow()
         {
-           InitializeComponent();
+            InitializeComponent();
         }
 
         //When false is playerone, when true playertwo
-        private void Button_Click(object sender, RoutedEventArgs e)
+        bool playerTurn = false;
+
+        public void Button6_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button; //It takes the sender objected and parsed it into sender object which casts it into a sender object
             //Player turn
@@ -43,18 +44,18 @@ namespace mainGame
                 button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
                 playerTurn = false;
             }
-            button.Click -= Button_Click; //Removes the event so that it doesn't call this method again
+            button.Click -= Button6_Click; //Removes the event so that it doesn't call this method again
             {
                 //Checks the row
-                int y;
+                bool checkBox = false;
+
+                for (int i = 0; i <= 5; i++)
+                {
+
+                }
+
             }
-        }
-
-        bool playerTurn = false;
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-           
         }
     }
 }
+

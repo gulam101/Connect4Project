@@ -1,0 +1,15 @@
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\bin\Debug\newGrid.exe.config
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\bin\Debug\newGrid.exe
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\bin\Debug\newGrid.pdb
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.csprojAssemblyReference.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\MainWindow.g.cs
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\App.g.cs
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid_MarkupCompile.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid_MarkupCompile.lref
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\MainWindow.baml
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.g.resources
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.Properties.Resources.resources
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.csproj.GenerateResource.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.csproj.CoreCompileInputs.cache
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.exe
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\newGrid\obj\Debug\newGrid.pdb
