@@ -99,6 +99,10 @@
       <Project>{3c14d885-3ab2-4b44-a065-15919b8eebc8}</Project>
       <Name>mainGame</Name>
     </ProjectReference>
+    <ProjectReference Include="..\newGrid\newGrid.csproj">
+      <Project>{89d57b5e-46ae-42ec-b14e-e76f97d44ede}</Project>
+      <Name>newGrid</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Icon.png" />

@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using mainGame;
+using newGrid;
 
 
 namespace Connect4_Game
@@ -40,8 +41,9 @@ namespace Connect4_Game
 
         private void Play_btn_Click(object sender, RoutedEventArgs e)
         {
-            mainGame.MainWindow newForm = new mainGame.MainWindow();
-            newForm.Show();
+            // mainGame.MainWindow newForm = new mainGame.MainWindow();
+            newGrid.MainWindow newGame = new newGrid.MainWindow();
+            newGame.Show();
             this.Close();
         }
     }

@@ -27,35 +27,42 @@ namespace newGrid
 
         //When false is playerone, when true playertwo
         bool playerTurn = false;
+        int[] redArray = new int[19];
+        int[] yellowArray = new int[19];//19 just in case. 18.
+        int yellowCounting = 0;
+        int redCounting = 0;
 
         public void Button6_Click(object sender, RoutedEventArgs e)
         {
             Button button = sender as Button; //It takes the sender objected and parsed it into sender object which casts it into a sender object
             //Player turn
+            int currentPos = Convert.ToInt32(button.Tag);
             if (!playerTurn)  //Yellow
             {
                 //Player one
                 button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0)); //Changes to red when pressed
                 playerTurn = true;
+                yellowArray[yellowCounting] = currentPos; //Stores the yellow clicks
+                yellowCounting++; //Counts the yellow
             }
             else //Red
             {
                 //Player two
                 button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
                 playerTurn = false;
+                redArray[redCounting] = currentPos; //Stores the red clicks
+                redCounting++; //Counts the red
             }
             button.Click -= Button6_Click; //Removes the event so that it doesn't call this method again
             {
                 //Checks the row
-                bool checkBox = false;
 
-                for (int i = 0; i <= 5; i++)
+
+                for (int i = 0; i > 3; i++ ) 
                 {
-
+                    MessageBox.Show("You win!");
                 }
-
             }
         }
     }
 }
-

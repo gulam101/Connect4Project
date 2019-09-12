@@ -36,3 +36,6 @@ C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.csproj.CopyComplete
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.exe
 C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\obj\Debug\Connect4 Game.pdb
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\newGrid.exe
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\newGrid.pdb
+C:\Users\Public\Visual Studio Projects 2019\Projects\Week 5\Game Project\Connect4 Game\Connect4 Game\bin\Debug\newGrid.exe.config
