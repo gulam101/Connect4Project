@@ -57,11 +57,11 @@ namespace newGrid
             {
                 //Checks the row
 
-
-                for (int i = 0; i > 3; i++ ) 
-                {
-                    MessageBox.Show("You win!");
-                }
+                //Incomplete
+                //for (int i = 0; i > 3; i++ ) 
+                //{
+                //    MessageBox.Show("You win!");
+                //}
             }
         }
     }
