@@ -26,7 +26,7 @@ namespace newGrid
         }
 
         //When false is playerone, when true playertwo
-        bool playerTurn = false;
+        bool playerTurn = false; 
         int[] redArray = new int[19];
         int[] yellowArray = new int[19];//19 just in case. 18.
         int yellowCounting = 0;
@@ -34,13 +34,15 @@ namespace newGrid
 
         public void Button6_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button; //It takes the sender object and parsed it into sender object which casts it into a sender object
+            Button button = sender as Button;
+            //It takes the sender object and parsed it into sender object which casts it into a sender object
             //Player turn
             int currentPos = Convert.ToInt32(button.Tag);
             if (!playerTurn)  //Yellow
             {
                 //Player one
-                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0)); //Changes to red when pressed
+                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 0, 0));
+                //Changes to red when pressed
                 playerTurn = true;
                 yellowArray[yellowCounting] = currentPos; //Stores the yellow clicks
                 yellowCounting++; //Counts the yellow
@@ -48,7 +50,8 @@ namespace newGrid
             else //Red
             {
                 //Player two
-                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0)); //Changes to yellow when pressed
+                button.Background = new SolidColorBrush(System.Windows.Media.Color.FromRgb(255, 255, 0));
+                //Changes to yellow when pressed
                 playerTurn = false;
                 redArray[redCounting] = currentPos; //Stores the red clicks
                 redCounting++; //Counts the red
