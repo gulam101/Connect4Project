@@ -24,11 +24,12 @@ namespace newGrid
         {
             InitializeComponent();
         }
-
+    
+        bool playerTurn = false;
         //When false is playerone, when true playertwo
-        bool playerTurn = false; 
         int[] redArray = new int[19];
-        int[] yellowArray = new int[19];//19 just in case. 18.
+        int[] yellowArray = new int[19];
+        //19 just in case. 18.
         int yellowCounting = 0;
         int redCounting = 0;
 
