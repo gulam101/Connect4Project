@@ -12,7 +12,6 @@
             <Button x:Name="exit_btn" Content="Exit&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.467,0.531" Height="38" Click="Exit_btn_Click" Background="#FFA63737"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="56,46,0,0" VerticalAlignment="Top" Width="100"/>
             <Image Margin="10,10,637.6,259" Source="Icon.png" Stretch="Fill"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="673,372,0,0" VerticalAlignment="Top" Width="75"/>
 
         </Grid>
 

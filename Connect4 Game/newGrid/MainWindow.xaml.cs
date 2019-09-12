@@ -34,7 +34,7 @@ namespace newGrid
 
         public void Button6_Click(object sender, RoutedEventArgs e)
         {
-            Button button = sender as Button; //It takes the sender objected and parsed it into sender object which casts it into a sender object
+            Button button = sender as Button; //It takes the sender object and parsed it into sender object which casts it into a sender object
             //Player turn
             int currentPos = Convert.ToInt32(button.Tag);
             if (!playerTurn)  //Yellow
@@ -58,10 +58,18 @@ namespace newGrid
                 //Checks the row
 
                 //Incomplete
-                //for (int i = 0; i > 3; i++ ) 
+                //for (int i = 0; i < 3; i++ ) 
                 //{
                 //    MessageBox.Show("You win!");
                 //}
+
+                //foreach(int t in redArray)
+                //{
+                //    if(t => )
+                //}
+
+                
+
             }
         }
     }
