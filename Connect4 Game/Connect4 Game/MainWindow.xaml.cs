@@ -35,7 +35,7 @@ namespace Connect4_Game
             
             if(result == MessageBoxResult.Yes)
             {
-                System.Windows.Application.Current.Shutdown(); //Shuts down the application
+                Application.Current.Shutdown(); //Shuts down the application
             }
         }
 
@@ -45,6 +45,11 @@ namespace Connect4_Game
             newGrid.MainWindow newGame = new newGrid.MainWindow();
             newGame.Show();
             this.Close();
+        }
+
+        private void Btn_Highscore_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Sorry this feature is not yet avaliable!");
         }
     }
 }

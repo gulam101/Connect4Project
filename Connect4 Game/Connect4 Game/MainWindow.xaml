@@ -9,9 +9,11 @@
     <Grid>
         <Button x:Name="play_btn" Content="Play Game" HorizontalAlignment="Left" Margin="358,124,0,0" VerticalAlignment="Top" Width="91" Background="#FFA63737" Click="Play_btn_Click" Height="40"/>
         <Grid>
-            <Button x:Name="exit_btn" Content="Exit&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.467,0.531" Height="38" Click="Exit_btn_Click" Background="#FFA63737"/>
+            <Button x:Name="exit_btn" Content="Exit&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.467,0.531" Height="23" Click="Exit_btn_Click" Background="#FFA63737"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="56,46,0,0" VerticalAlignment="Top" Width="100"/>
             <Image Margin="10,10,637.6,259" Source="Icon.png" Stretch="Fill"/>
+            <Button x:Name="btn_Highscore" Content="High Scores&#xD;&#xA;" HorizontalAlignment="Left" Margin="365,215,0,0" VerticalAlignment="Top" Width="75" Click="Btn_Highscore_Click"/>
+            <Label Content="Connect4" HorizontalAlignment="Left" Margin="365,17,0,0" VerticalAlignment="Top" FontSize="22"/>
 
         </Grid>
 
