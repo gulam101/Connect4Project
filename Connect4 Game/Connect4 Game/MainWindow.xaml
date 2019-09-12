@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Connect4_Game"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
         <Button x:Name="play_btn" Content="Play Game" HorizontalAlignment="Left" Margin="358,124,0,0" VerticalAlignment="Top" Width="91" Background="#FFA63737" Click="Play_btn_Click" Height="40"/>
-        <Grid>
+        <Grid Margin="0,0,-0.4,0" Grid.RowSpan="2">
             <Button x:Name="exit_btn" Content="Exit&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,372,0,0" VerticalAlignment="Top" Width="86" RenderTransformOrigin="0.467,0.531" Height="23" Click="Exit_btn_Click" Background="#FFA63737"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="56,46,0,0" VerticalAlignment="Top" Width="100"/>
             <Image Margin="10,10,637.6,259" Source="Icon.png" Stretch="Fill"/>
