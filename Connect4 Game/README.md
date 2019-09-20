@@ -2,14 +2,11 @@ This project was my attempt at making a Connect4 game using WPF. The goal of the
 
 Day 1 Implementations:
 
-> Added a grid menu to show the user where the boarder starts and end
-> I added the menu so that the user can be loaded into the game
-> I added the images on top of the button so that it shows me the counter
-> Added the place holder counter images in the files
-> I added an exit button that asks the user if they wanted to leave
-> 
-> 
-> 
+Added a grid menu to show the user where the boarder starts and end
+I added the menu so that the user can be loaded into the game
+I added the images on top of the button so that it shows me the counter
+Added the place holder counter images in the files
+I added an exit button that asks the user if they wanted to leave
 
 Tomorrow I will add/fix:
 The counter so that the users take turns
@@ -20,20 +17,20 @@ Will add a test menu to test some things on a different menu to keep the main ar
 
 Day 2 Implementations:
 
-> Fixed the GRID and enlarged it
-> The counters work properly
-> Fixed the menu not loading up the game
-> Fixed the new game
-> Adjusted the menu and added a few images
-> Removed the placeholder images
+Fixed the GRID and enlarged it
+The counters work properly
+Fixed the menu not loading up the game
+Fixed the new game
+Adjusted the menu and added a few images
+Removed the placeholder images
 
 Tomorrow I will add/fix
 
 Day 3 Implementations:
-> Recreated the GRID
-> Improved the game design with a better GRID
-> Fixed crashing when closing the game
-> Fixed the resize glitch that was causing the main menu to stretch things
+Recreated the GRID
+Improved the game design with a better GRID
+Fixed crashing when closing the game
+Fixed the resize glitch that was causing the main menu to stretch things
 
 What did I learn during this project?
 
