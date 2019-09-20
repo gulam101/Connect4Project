@@ -22,7 +22,8 @@ Day 2 Implementations:
 
 > Fixed the GRID and enlarged it
 > The counters work properly
-> fixed the menu not loading up the game
+> Fixed the menu not loading up the game
+> Fixed the new game
 > Adjusted the menu and added a few images
 > Removed the placeholder images
 
@@ -32,6 +33,7 @@ Day 3 Implementations:
 > Recreated the GRID
 > Improved the game design with a better GRID
 > Fixed crashing when closing the game
+> Fixed the resize glitch that was causing the main menu to stretch things
 
 What did I learn during this project?
 
